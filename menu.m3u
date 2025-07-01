@@ -1,6 +1,6 @@
 #EXTM3U
 
-/*--MENU--------------------------------------------------------------------------*/
+#EXTLST:--MENU--------------------------------------------------------------------------
 #EXTINF: nombre="opcion" tipo="menu" logo="opcion" url="opcion"
 #EXTINF: nombre="nacional" tipo="menu" logo="nacional" url="nacional"
 #EXTINF: nombre="infantil" tipo="menu" logo="infantil" url="infantil"
@@ -22,10 +22,10 @@
 #EXTINF: nombre="ytbfamiliar" tipo="menu" logo="ytbfamiliar" url="ytbfamiliar"
 #EXTINF: nombre="ytbanime" tipo="menu" logo="ytbanime" url="ytbanime"
 #EXTINF: nombre="ytbmusical" tipo="menu" logo="ytbmusical" url="ytbmusical"
-/*--MENU--------------------------------------------------------------------------*/
+#EXTLST:--MENU--------------------------------------------------------------------------
 
-/*--OPCION--------------------------------------------------------------------------*/
+#EXTLST:--OPCION------------------------------------------------------------------------
 #EXTINF: nombre="actualizar" tipo="opcion" logo="actualizar" url="/actualizar"
 #EXTINF: nombre="borrar cache" tipo="opcion" logo="killkche" url="/killkche"
 #EXTINF: nombre="activar" tipo="opcion" logo="activar" url="/activar"
-/*--OPCION--------------------------------------------------------------------------*/
+#EXTLST:--OPCION------------------------------------------------------------------------
