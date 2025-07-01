@@ -24,3 +24,8 @@
 #EXTINF: nombre="ytbmusical" tipo="menu" logo="ytbmusical" url="ytbmusical"
 /*--MENU--------------------------------------------------------------------------*/
 
+/*--OPCION--------------------------------------------------------------------------*/
+#EXTINF: nombre="actualizar" tipo="opcion" logo="actualizar" url="/actualizar"
+#EXTINF: nombre="borrar cache" tipo="opcion" logo="killkche" url="/killkche"
+#EXTINF: nombre="activar" tipo="opcion" logo="activar" url="/activar"
+/*--OPCION--------------------------------------------------------------------------*/
