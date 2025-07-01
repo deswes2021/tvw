@@ -1,7 +1,7 @@
 #EXTM3U
 
 /*--MENU--------------------------------------------------------------------------*/
-#EXTINF: nombre="opciones" tipo="menu" logo="opciones" url="opciones"
+#EXTINF: nombre="opcion" tipo="menu" logo="opcion" url="opcion"
 #EXTINF: nombre="nacional" tipo="menu" logo="nacional" url="nacional"
 #EXTINF: nombre="infantil" tipo="menu" logo="infantil" url="infantil"
 #EXTINF: nombre="cultura" tipo="menu" logo="cultura" url="cultura"
