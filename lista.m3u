@@ -27,5 +27,5 @@
 #EXTLST:--OPCION------------------------------------------------------------------------
 #EXTINF: nombre="actualizar" tipo="opcion" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/actualizar.jpg" url="/actualizar"
 #EXTINF: nombre="borrar cache" tipo="opcion" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/killkche.jpg" url="/killkche"
-#EXTINF: nombre="activar" tipo="opcion" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/activar.jpg" url="/activar"
+#EXTINF: nombre="activar" tipo="opcion" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/activar.jpg" url="https://tv.teleclub.xyz/activar"
 #EXTLST:--OPCION------------------------------------------------------------------------
