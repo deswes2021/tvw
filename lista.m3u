@@ -33,3 +33,7 @@
 #EXTLST:--NACIONALES------------------------------------------------------------------------
 #EXTINF: nombre="tcs +" tipo="nacional" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/canal1.jpg" url="https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8"
 #EXTLST:--NACIONALES------------------------------------------------------------------------
+
+#EXTLST:--YTBANIME------------------------------------------------------------------------
+#EXTINF: nombre="nose que es" tipo="ytbanime" logo="https://img.youtube.com/vi/DoKFGVCQjdk/0.jpg" url="DoKFGVCQjdk.ytb"
+#EXTLST:--YTBANIME------------------------------------------------------------------------
