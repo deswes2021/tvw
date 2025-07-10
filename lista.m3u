@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF: nombre="Opciones" tipo="Menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/Opciones.jpg"  url="Opciones"
+#EXTINF: nombre="Nacionales" tipo="Menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/Nacionales.jpg"  url="Nacionales"
 #EXTINF: nombre="Infantil" tipo="Menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/Infantiles.jpg"  url="Infantil"
 #EXTINF: nombre="Cultura" tipo="Menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/Cultura.jpg"  url="Cultura"
 #EXTINF: nombre="Mundo" tipo="Menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/Mundo.jpg"  url="Mundo"
