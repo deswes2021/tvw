@@ -1,29 +1,5 @@
 #EXTM3U
 
-#EXTLST: MENU
-#extinf: nombre="opciones" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/opciones.jpg"  url="opciones?tvw"
-#extinf: nombre="nacionales" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/nacionales.jpg"  url="nacionales?tvw"
-#extinf: nombre="infantil" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/infantiles.jpg"  url="infantil?tvw"
-#extinf: nombre="cultura" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/cultura.jpg"  url="cultura?tvw"
-#extinf: nombre="mundo" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/mundo.jpg"  url="mundo?tvw"
-#extinf: nombre="entretenimiento" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/entretenimiento.jpg"  url="entretenimiento?tvw"
-#extinf: nombre="24x7" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/24x7.jpg"  url="24x7?tvw"
-#extinf: nombre="deportes" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/deportes.jpg"  url="deportes?tvw"
-#extinf: nombre="musica" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/musica.jpg"  url="musica?tvw"
-#extinf: nombre="religion" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/religion.jpg"  url="religion?tvw"
-#extinf: nombre="ytboeste" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytboeste.jpg"  url="ytboeste?tvw"
-#extinf: nombre="ytbwars" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbwars.jpg"  url="ytbwars?tvw"
-#extinf: nombre="ytbdocumental" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbdocumental.jpg"  url="ytbdocumental?tvw"
-#extinf: nombre="ytbfantasy" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbfantasy.jpg"  url="ytbfantasy?tvw"
-#extinf: nombre="ytbfiction" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbfiction.jpg"  url="ytbfiction?tvw"
-#extinf: nombre="ytbhorror" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbhorror.jpg"  url="ytbhorror?tvw"
-#extinf: nombre="ytbanime" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbanime.jpg"  url="ytbanime?tvw"
-#extinf: nombre="ytbfamily" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbfamily.jpg"  url="ytbfamily?tvw"
-#extinf: nombre="ytbcomedy" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbcomedy.jpg"  url="ytbcomedy?tvw"
-#extinf: nombre="ytbdrama" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbdrama.jpg"  url="ytbdrama?tvw"
-#extinf: nombre="ytbmusical" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/ytbmusical.jpg"  url="ytbmusical?tvw"
-#EXTLST: MENU
-
 #EXTLST: OPCIONES
 #EXTINF: nombre="Actualizar" tipo="Opciones" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/actualizar.jpg" url="/actualizar?tvw"
 #EXTINF: nombre="Borrar Cache" tipo="Opciones" logo="https://raw.githubusercontent.com/deswes2021/wtv/main/img/killkche.jpg" url="/killkche?tvw"
@@ -141,7 +117,7 @@
 #EXTINF: nombre="HBO" tipo="Entretenimiento" logo="https://img.teleclub.xyz/hbo.png"  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/HBO/master.m3u8"
 #EXTINF: nombre="HBO2" tipo="Entretenimiento" logo="https://img.teleclub.xyz/hbo2.png"  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/hbo2/master.m3u8"
 #EXTINF: nombre="HBOFamily" tipo="Entretenimiento" logo="https://img.teleclub.xyz/hbofamily.png"  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/hbo_family/master.m3u8"
-#EXTINF: nombre="HBOSignature" tipo="Entretenimiento" logo=""  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/hbosignature/master.m3u8"
+#EXTINF: nombre="HBOSignature" tipo="Entretenimiento" logo="nada/HBOSignature.jpg"  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/hbosignature/master.m3u8"
 #EXTINF: nombre="HBOXtreme" tipo="Entretenimiento" logo="https://img.teleclub.xyz/hboxtreme.png"  url="http://tv.teleclub.xyz/stream/server_3/entretenimiento/hboxtreme/master.m3u8"
 #EXTINF: nombre="Multipremier" tipo="Entretenimiento" logo="https://img.teleclub.xyz/multipremier.png"  url="http://tv.teleclub.xyz/stream/server_1/entretenimiento/multipremier/master.m3u8"
 #EXTINF: nombre="ParamountNetwork" tipo="Entretenimiento" logo="https://img.teleclub.xyz/paramount.png"  url="http://tv.teleclub.xyz/stream/server_1/entretenimiento/paramountnetwork/master.m3u8"
