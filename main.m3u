@@ -1,7 +1,0 @@
-[
-{ nombre: 'agregar lista', tipo: 'opciones', logo: 'addlist.jpg', url: 'addlist' },
-{ nombre: 'listas', tipo: 'opciones', logo: 'verlist.jpg', url: 'verlist' },
-{ nombre: 'limpiar lista', tipo: 'opciones', logo: dellist.jpg', url: 'dellist' },
-{ nombre: 'opciones', tipo: 'm3u', logo: 'opciones.jpg', url: 'opciones' },
-{ nombre: 'el salvador', tipo: 'm3u', logo: 'nacionales.jpg', url: 'sv.m3u' }
-]

@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF: nombre='opciones' tipo='menu' logo='opciones.jpg' url='opciones.m3u'
+#EXTINF: nombre='el salvador' tipo='menu' logo='nacionales.jpg' url='sv.m3u'
