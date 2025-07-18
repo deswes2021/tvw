@@ -1,2 +1,3 @@
 #EXTM3U
 #EXTINF: nombre='el salvador' tipo='menu' logo='nacionales.jpg' url='nacionales.m3u'
+#EXTINF: nombre='teleclub' tipo='menu' logo='teleclub.jpg' url='teleclub.m3u'
