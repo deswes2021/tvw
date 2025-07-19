@@ -1,0 +1,20 @@
+#EXTM3U
+
+#EXTINF: nombre="actualizar" tipo="opciones" logo="actualizar.jpg" url="/actualizar"
+#EXTINF: nombre="borrar cache" tipo="opciones" logo="borrarcache.jpg" url="/borrarcache"
+#EXTINF: nombre="activar" tipo="opciones" logo="activar.jpg" url="https://tv.teleclub.xyz/activar"
+
+#EXTINF: nombre="tcs +" tipo="nacionales" logo="naccanal1.jpg" url="00000000"
+#EXTINF: nombre="canal 2" tipo="nacionales" logo="naccanal2.jpg" url="00000000"
+#EXTINF: nombre="canal 3" tipo="nacionales" logo="naccanal3.jpg" url="00000000"
+#EXTINF: nombre="canal 4" tipo="nacionales" logo="naccanal4.jpg" url="00000000"
+#EXTINF: nombre="canal 5" tipo="nacionales" logo="naccanal5.jpg" url="00000000"
+#EXTINF: nombre="canal 6" tipo="nacionales" logo="naccanal6.jpg" url="00000000"
+#EXTINF: nombre="canal 7" tipo="nacionales" logo="naccanal7.jpg" url="00000000"
+#EXTINF: nombre="canal 8" tipo="nacionales" logo="naccanal8.jpg" url="00000000"
+#EXTINF: nombre="canal 9" tipo="nacionales" logo="naccanal9.jpg" url="00000000"
+#EXTINF: nombre="canal 10" tipo="nacionales" logo="naccanal10.jpg" url="00000000"
+#EXTINF: nombre="canal 11" tipo="nacionales" logo="naccanal11.jpg" url="00000000"
+#EXTINF: nombre="canal 12" tipo="nacionales" logo="naccanal12.jpg" url="00000000"
+#EXTINF: nombre="canal 19" tipo="nacionales" logo="naccanal19.jpg" url="00000000"
+#EXTINF: nombre="canal 21" tipo="nacionales" logo="naccanal21.jpg" url="00000000"
