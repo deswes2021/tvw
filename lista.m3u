@@ -19,21 +19,271 @@
 #EXTINF: nombre="Canal19" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal19.jpg"  url="https://mgv-channel19.akamaized.net/hls/live/2093190/MGV_CHANNEL19/master.m3u8"
 #EXTINF: nombre="Canal21" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal21.jpg"  url="https://mgv-channel21.akamaized.net/hls/live/2093191/MGV_CHANNEL21/master.m3u8"
 
-#EXTINF: nombre="nick" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/nick.html"
-#EXTINF: nombre="nickjr" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/nickjr.html"
-#EXTINF: nombre="cartoonnetwork" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/cartoonnetwork.html"
-#EXTINF: nombre="tooncast" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/tooncast.html"
-#EXTINF: nombre="natgeomundo" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/natgeomundo.html"
-#EXTINF: nombre="history" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/history.html"
-#EXTINF: nombre="history2" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/history2.html"
-#EXTINF: nombre="animalplanet" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/animalplanet.html"
-#EXTINF: nombre="discoverychannel" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/discoverychannel.html"
-#EXTINF: nombre="discoveryhyh" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/discoveryhyh.html"
-#EXTINF: nombre="discoveryaye" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/discoveryaye.html"
-#EXTINF: nombre="idinvestigation" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/idinvestigation.html"
-#EXTINF: nombre="discoverytheater" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/discoverytheater.html"
-#EXTINF: nombre="discoveryworld" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/discoveryworld.html"
-#EXTINF: nombre="lifetime" tipo="iframes" logo="uknow.jpg"  url="https://embed.saohgdasregions.fun/embed/lifetime.html"
+#EXTINF:-1 tvg-id="" tvg-name="tudn" tvg-logo="iframes" group-title="iframes",tudn
+https://embed.saohgdasregions.fun/embed/tudn.html
+#EXTINF:-1 tvg-id="" tvg-name="golperu" tvg-logo="iframes" group-title="iframes",golperu
+https://embed.saohgdasregions.fun/embed/golperu.html
+#EXTINF:-1 tvg-id="" tvg-name="tntsports" tvg-logo="iframes" group-title="iframes",tntsports
+https://embed.saohgdasregions.fun/embed/tntsports.html
+#EXTINF:-1 tvg-id="" tvg-name="espnpremium" tvg-logo="iframes" group-title="iframes",espnpremium
+https://embed.saohgdasregions.fun/embed/espnpremium.html
+#EXTINF:-1 tvg-id="" tvg-name="espnpremiumargentina" tvg-logo="iframes" group-title="iframes",espnpremiumargentina
+https://embed.saohgdasregions.fun/embed/espnpremiumargentina.html
+#EXTINF:-1 tvg-id="" tvg-name="tycsports" tvg-logo="iframes" group-title="iframes",tycsports
+https://embed.saohgdasregions.fun/embed/tycsports.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsports" tvg-logo="iframes" group-title="iframes",foxsports
+https://embed.saohgdasregions.fun/embed/foxsports.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsports2" tvg-logo="iframes" group-title="iframes",foxsports2
+https://embed.saohgdasregions.fun/embed/foxsports2.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsports3" tvg-logo="iframes" group-title="iframes",foxsports3
+https://embed.saohgdasregions.fun/embed/foxsports3.html
+#EXTINF:-1 tvg-id="" tvg-name="foxdeportes" tvg-logo="iframes" group-title="iframes",foxdeportes
+https://embed.saohgdasregions.fun/embed/foxdeportes.html
+#EXTINF:-1 tvg-id="" tvg-name="espn" tvg-logo="iframes" group-title="iframes",espn
+https://embed.saohgdasregions.fun/embed/espn.html
+#EXTINF:-1 tvg-id="" tvg-name="espnar" tvg-logo="iframes" group-title="iframes",espnar
+https://embed.saohgdasregions.fun/embed/espnar.html
+#EXTINF:-1 tvg-id="" tvg-name="espncol" tvg-logo="iframes" group-title="iframes",espncol
+https://embed.saohgdasregions.fun/embed/espncol.html
+#EXTINF:-1 tvg-id="" tvg-name="espn2" tvg-logo="iframes" group-title="iframes",espn2
+https://embed.saohgdasregions.fun/embed/espn2.html
+#EXTINF:-1 tvg-id="" tvg-name="espn3" tvg-logo="iframes" group-title="iframes",espn3
+https://embed.saohgdasregions.fun/embed/espn3.html
+#EXTINF:-1 tvg-id="" tvg-name="espn4" tvg-logo="iframes" group-title="iframes",espn4
+https://embed.saohgdasregions.fun/embed/espn4.html
+#EXTINF:-1 tvg-id="" tvg-name="espn5" tvg-logo="iframes" group-title="iframes",espn5
+https://embed.saohgdasregions.fun/embed/espn5.html
+#EXTINF:-1 tvg-id="" tvg-name="espn6" tvg-logo="iframes" group-title="iframes",espn6
+https://embed.saohgdasregions.fun/embed/espn6.html
+#EXTINF:-1 tvg-id="" tvg-name="espn7" tvg-logo="iframes" group-title="iframes",espn7
+https://embed.saohgdasregions.fun/embed/espn7.html
+#EXTINF:-1 tvg-id="" tvg-name="directvsports" tvg-logo="iframes" group-title="iframes",directvsports
+https://embed.saohgdasregions.fun/embed/directvsports.html
+#EXTINF:-1 tvg-id="" tvg-name="directvsports2" tvg-logo="iframes" group-title="iframes",directvsports2
+https://embed.saohgdasregions.fun/embed/directvsports2.html
+#EXTINF:-1 tvg-id="" tvg-name="directvsportsplus" tvg-logo="iframes" group-title="iframes",directvsportsplus
+https://embed.saohgdasregions.fun/embed/directvsportsplus.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsportsmexico" tvg-logo="iframes" group-title="iframes",foxsportsmexico
+https://embed.saohgdasregions.fun/embed/foxsportsmexico.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsports2mexico" tvg-logo="iframes" group-title="iframes",foxsports2mexico
+https://embed.saohgdasregions.fun/embed/foxsports2mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsports3mexico" tvg-logo="iframes" group-title="iframes",foxsports3mexico
+https://embed.saohgdasregions.fun/embed/foxsports3mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="espnmexico" tvg-logo="iframes" group-title="iframes",espnmexico
+https://embed.saohgdasregions.fun/embed/espnmexico.html
+#EXTINF:-1 tvg-id="" tvg-name="espn2mexico" tvg-logo="iframes" group-title="iframes",espn2mexico
+https://embed.saohgdasregions.fun/embed/espn2mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="espn3mexico" tvg-logo="iframes" group-title="iframes",espn3mexico
+https://embed.saohgdasregions.fun/embed/espn3mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="espn4mexico" tvg-logo="iframes" group-title="iframes",espn4mexico
+https://embed.saohgdasregions.fun/embed/espn4mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="espn5mexico" tvg-logo="iframes" group-title="iframes",espn5mexico
+https://embed.saohgdasregions.fun/embed/espn5mexico.html
+#EXTINF:-1 tvg-id="" tvg-name="tvcdeportes" tvg-logo="iframes" group-title="iframes",tvcdeportes
+https://embed.saohgdasregions.fun/embed/tvcdeportes.html
+#EXTINF:-1 tvg-id="" tvg-name="liga1" tvg-logo="iframes" group-title="iframes",liga1
+https://embed.saohgdasregions.fun/embed/liga1.html
+#EXTINF:-1 tvg-id="" tvg-name="liga1max" tvg-logo="iframes" group-title="iframes",liga1max
+https://embed.saohgdasregions.fun/embed/liga1max.html
+#EXTINF:-1 tvg-id="" tvg-name="foxsportspremium" tvg-logo="iframes" group-title="iframes",foxsportspremium
+https://embed.saohgdasregions.fun/embed/foxsportspremium.html
+#EXTINF:-1 tvg-id="" tvg-name="movistardeportes" tvg-logo="iframes" group-title="iframes",movistardeportes
+https://embed.saohgdasregions.fun/embed/movistardeportes.html
+#EXTINF:-1 tvg-id="" tvg-name="daznf1" tvg-logo="iframes" group-title="iframes",daznf1
+https://embed.saohgdasregions.fun/embed/daznf1.html
+#EXTINF:-1 tvg-id="" tvg-name="daznlaliga" tvg-logo="iframes" group-title="iframes",daznlaliga
+https://embed.saohgdasregions.fun/embed/daznlaliga.html
+#EXTINF:-1 tvg-id="" tvg-name="movistarligadecampeones" tvg-logo="iframes" group-title="iframes",movistarligadecampeones
+https://embed.saohgdasregions.fun/embed/movistarligadecampeones.html
+#EXTINF:-1 tvg-id="" tvg-name="winsports" tvg-logo="iframes" group-title="iframes",winsports
+https://embed.saohgdasregions.fun/embed/winsports.html
+#EXTINF:-1 tvg-id="" tvg-name="winsportsplus" tvg-logo="iframes" group-title="iframes",winsportsplus
+https://embed.saohgdasregions.fun/embed/winsportsplus.html
+#EXTINF:-1 tvg-id="" tvg-name="beinsportsxtra" tvg-logo="iframes" group-title="iframes",beinsportsxtra
+https://embed.saohgdasregions.fun/embed/beinsportsxtra.html
+#EXTINF:-1 tvg-id="" tvg-name="movistarlaliga" tvg-logo="iframes" group-title="iframes",movistarlaliga
+https://embed.saohgdasregions.fun/embed/movistarlaliga.html
+#EXTINF:-1 tvg-id="" tvg-name="nba" tvg-logo="iframes" group-title="iframes",nba
+https://embed.saohgdasregions.fun/embed/nba.html
+#EXTINF:-1 tvg-id="" tvg-name="movistardeporteses" tvg-logo="iframes" group-title="iframes",movistardeporteses
+https://embed.saohgdasregions.fun/embed/movistardeporteses.html
+#EXTINF:-1 tvg-id="" tvg-name="aztecadeportes" tvg-logo="iframes" group-title="iframes",aztecadeportes
+https://embed.saohgdasregions.fun/embed/aztecadeportes.html
+#EXTINF:-1 tvg-id="" tvg-name="tntsportschile" tvg-logo="iframes" group-title="iframes",tntsportschile
+https://embed.saohgdasregions.fun/embed/tntsportschile.html
+#EXTINF:-1 tvg-id="" tvg-name="mlbnetwork" tvg-logo="iframes" group-title="iframes",mlbnetwork
+https://embed.saohgdasregions.fun/embed/mlbnetwork.html
+#EXTINF:-1 tvg-id="" tvg-name="skysportsmexico" tvg-logo="iframes" group-title="iframes",skysportsmexico
+https://embed.saohgdasregions.fun/embed/skysportsmexico.html
+#EXTINF:-1 tvg-id="" tvg-name="skysportsbundesliga" tvg-logo="iframes" group-title="iframes",skysportsbundesliga
+https://embed.saohgdasregions.fun/embed/skysportsbundesliga.html
+#EXTINF:-1 tvg-id="" tvg-name="skysportsf1" tvg-logo="iframes" group-title="iframes",skysportsf1
+https://embed.saohgdasregions.fun/embed/skysportsf1.html
+#EXTINF:-1 tvg-id="" tvg-name="azteca7" tvg-logo="iframes" group-title="iframes",azteca7
+https://embed.saohgdasregions.fun/embed/azteca7.html
+#EXTINF:-1 tvg-id="" tvg-name="canal5" tvg-logo="iframes" group-title="iframes",canal5
+https://embed.saohgdasregions.fun/embed/canal5.html
+#EXTINF:-1 tvg-id="" tvg-name="latina" tvg-logo="iframes" group-title="iframes",latina
+https://embed.saohgdasregions.fun/embed/latina.html
+#EXTINF:-1 tvg-id="" tvg-name="americatv" tvg-logo="iframes" group-title="iframes",americatv
+https://embed.saohgdasregions.fun/embed/americatv.html
+#EXTINF:-1 tvg-id="" tvg-name="space" tvg-logo="iframes" group-title="iframes",space
+https://embed.saohgdasregions.fun/embed/space.html
+#EXTINF:-1 tvg-id="" tvg-name="warnerchannel" tvg-logo="iframes" group-title="iframes",warnerchannel
+https://embed.saohgdasregions.fun/embed/warnerchannel.html
+#EXTINF:-1 tvg-id="" tvg-name="tnt" tvg-logo="iframes" group-title="iframes",tnt
+https://embed.saohgdasregions.fun/embed/tnt.html
+#EXTINF:-1 tvg-id="" tvg-name="starchannel" tvg-logo="iframes" group-title="iframes",starchannel
+https://embed.saohgdasregions.fun/embed/starchannel.html
+#EXTINF:-1 tvg-id="" tvg-name="cinemax" tvg-logo="iframes" group-title="iframes",cinemax
+https://embed.saohgdasregions.fun/embed/cinemax.html
+#EXTINF:-1 tvg-id="" tvg-name="cinecanal" tvg-logo="iframes" group-title="iframes",cinecanal
+https://embed.saohgdasregions.fun/embed/cinecanal.html
+#EXTINF:-1 tvg-id="" tvg-name="telefe" tvg-logo="iframes" group-title="iframes",telefe
+https://embed.saohgdasregions.fun/embed/telefe.html
+#EXTINF:-1 tvg-id="" tvg-name="eltrece" tvg-logo="iframes" group-title="iframes",eltrece
+https://embed.saohgdasregions.fun/embed/eltrece.html
+#EXTINF:-1 tvg-id="" tvg-name="distritocomedia" tvg-logo="iframes" group-title="iframes",distritocomedia
+https://embed.saohgdasregions.fun/embed/distritocomedia.html
+#EXTINF:-1 tvg-id="" tvg-name="telemundo51" tvg-logo="iframes" group-title="iframes",telemundo51
+https://embed.saohgdasregions.fun/embed/telemundo51.html
+#EXTINF:-1 tvg-id="" tvg-name="history" tvg-logo="iframes" group-title="iframes",history
+https://embed.saohgdasregions.fun/embed/history.html
+#EXTINF:-1 tvg-id="" tvg-name="history2" tvg-logo="iframes" group-title="iframes",history2
+https://embed.saohgdasregions.fun/embed/history2.html
+#EXTINF:-1 tvg-id="" tvg-name="pasiones" tvg-logo="iframes" group-title="iframes",pasiones
+https://embed.saohgdasregions.fun/embed/pasiones.html
+#EXTINF:-1 tvg-id="" tvg-name="aztecauno" tvg-logo="iframes" group-title="iframes",aztecauno
+https://embed.saohgdasregions.fun/embed/aztecauno.html
+#EXTINF:-1 tvg-id="" tvg-name="aztecainternacional" tvg-logo="iframes" group-title="iframes",aztecainternacional
+https://embed.saohgdasregions.fun/embed/aztecainternacional.html
+#EXTINF:-1 tvg-id="" tvg-name="azcinema" tvg-logo="iframes" group-title="iframes",azcinema
+https://embed.saohgdasregions.fun/embed/azcinema.html
+#EXTINF:-1 tvg-id="" tvg-name="galavision" tvg-logo="iframes" group-title="iframes",galavision
+https://embed.saohgdasregions.fun/embed/galavision.html
+#EXTINF:-1 tvg-id="" tvg-name="tlnovelas" tvg-logo="iframes" group-title="iframes",tlnovelas
+https://embed.saohgdasregions.fun/embed/tlnovelas.html
+#EXTINF:-1 tvg-id="" tvg-name="lasestrellas" tvg-logo="iframes" group-title="iframes",lasestrellas
+https://embed.saohgdasregions.fun/embed/lasestrellas.html
+#EXTINF:-1 tvg-id="" tvg-name="syfy" tvg-logo="iframes" group-title="iframes",syfy
+https://embed.saohgdasregions.fun/embed/syfy.html
+#EXTINF:-1 tvg-id="" tvg-name="caracol" tvg-logo="iframes" group-title="iframes",caracol
+https://embed.saohgdasregions.fun/embed/caracol.html
+#EXTINF:-1 tvg-id="" tvg-name="atv" tvg-logo="iframes" group-title="iframes",atv
+https://embed.saohgdasregions.fun/embed/atv.html
+#EXTINF:-1 tvg-id="" tvg-name="univision" tvg-logo="iframes" group-title="iframes",univision
+https://embed.saohgdasregions.fun/embed/univision.html
+#EXTINF:-1 tvg-id="" tvg-name="unicable" tvg-logo="iframes" group-title="iframes",unicable
+https://embed.saohgdasregions.fun/embed/unicable.html
+#EXTINF:-1 tvg-id="" tvg-name="fx" tvg-logo="iframes" group-title="iframes",fx
+https://embed.saohgdasregions.fun/embed/fx.html
+#EXTINF:-1 tvg-id="" tvg-name="goldenplus" tvg-logo="iframes" group-title="iframes",goldenplus
+https://embed.saohgdasregions.fun/embed/goldenplus.html
+#EXTINF:-1 tvg-id="" tvg-name="goldenedge" tvg-logo="iframes" group-title="iframes",goldenedge
+https://embed.saohgdasregions.fun/embed/goldenedge.html
+#EXTINF:-1 tvg-id="" tvg-name="goldenpremier" tvg-logo="iframes" group-title="iframes",goldenpremier
+https://embed.saohgdasregions.fun/embed/goldenpremier.html
+#EXTINF:-1 tvg-id="" tvg-name="goldenpremier2" tvg-logo="iframes" group-title="iframes",goldenpremier2
+https://embed.saohgdasregions.fun/embed/goldenpremier2.html
+#EXTINF:-1 tvg-id="" tvg-name="tntseries" tvg-logo="iframes" group-title="iframes",tntseries
+https://embed.saohgdasregions.fun/embed/tntseries.html
+#EXTINF:-1 tvg-id="" tvg-name="sony" tvg-logo="iframes" group-title="iframes",sony
+https://embed.saohgdasregions.fun/embed/sony.html
+#EXTINF:-1 tvg-id="" tvg-name="axn" tvg-logo="iframes" group-title="iframes",axn
+https://embed.saohgdasregions.fun/embed/axn.html
+#EXTINF:-1 tvg-id="" tvg-name="universalchannel" tvg-logo="iframes" group-title="iframes",universalchannel
+https://embed.saohgdasregions.fun/embed/universalchannel.html
+#EXTINF:-1 tvg-id="" tvg-name="studiouniversal" tvg-logo="iframes" group-title="iframes",studiouniversal
+https://embed.saohgdasregions.fun/embed/studiouniversal.html
+#EXTINF:-1 tvg-id="" tvg-name="multipremier" tvg-logo="iframes" group-title="iframes",multipremier
+https://embed.saohgdasregions.fun/embed/multipremier.html
+#EXTINF:-1 tvg-id="" tvg-name="amc" tvg-logo="iframes" group-title="iframes",amc
+https://embed.saohgdasregions.fun/embed/amc.html
+#EXTINF:-1 tvg-id="" tvg-name="paramountchannel" tvg-logo="iframes" group-title="iframes",paramountchannel
+https://embed.saohgdasregions.fun/embed/paramountchannel.html
+#EXTINF:-1 tvg-id="" tvg-name="dpelicula" tvg-logo="iframes" group-title="iframes",dpelicula
+https://embed.saohgdasregions.fun/embed/dpelicula.html
+#EXTINF:-1 tvg-id="" tvg-name="mtv" tvg-logo="iframes" group-title="iframes",mtv
+https://embed.saohgdasregions.fun/embed/mtv.html
+#EXTINF:-1 tvg-id="" tvg-name="comedycentral" tvg-logo="iframes" group-title="iframes",comedycentral
+https://embed.saohgdasregions.fun/embed/comedycentral.html
+#EXTINF:-1 tvg-id="" tvg-name="natgeo" tvg-logo="iframes" group-title="iframes",natgeo
+https://embed.saohgdasregions.fun/embed/natgeo.html
+#EXTINF:-1 tvg-id="" tvg-name="animalplanet" tvg-logo="iframes" group-title="iframes",animalplanet
+https://embed.saohgdasregions.fun/embed/animalplanet.html
+#EXTINF:-1 tvg-id="" tvg-name="discoverychannel" tvg-logo="iframes" group-title="iframes",discoverychannel
+https://embed.saohgdasregions.fun/embed/discoverychannel.html
+#EXTINF:-1 tvg-id="" tvg-name="discoveryturbo" tvg-logo="iframes" group-title="iframes",discoveryturbo
+https://embed.saohgdasregions.fun/embed/discoveryturbo.html
+#EXTINF:-1 tvg-id="" tvg-name="discoveryhyh" tvg-logo="iframes" group-title="iframes",discoveryhyh
+https://embed.saohgdasregions.fun/embed/discoveryhyh.html
+#EXTINF:-1 tvg-id="" tvg-name="idinvestigation" tvg-logo="iframes" group-title="iframes",idinvestigation
+https://embed.saohgdasregions.fun/embed/idinvestigation.html
+#EXTINF:-1 tvg-id="" tvg-name="discoveryaye" tvg-logo="iframes" group-title="iframes",discoveryaye
+https://embed.saohgdasregions.fun/embed/discoveryaye.html
+#EXTINF:-1 tvg-id="" tvg-name="discoverytlc" tvg-logo="iframes" group-title="iframes",discoverytlc
+https://embed.saohgdasregions.fun/embed/discoverytlc.html
+#EXTINF:-1 tvg-id="" tvg-name="discoverytheater" tvg-logo="iframes" group-title="iframes",discoverytheater
+https://embed.saohgdasregions.fun/embed/discoverytheater.html
+#EXTINF:-1 tvg-id="" tvg-name="discoveryworld" tvg-logo="iframes" group-title="iframes",discoveryworld
+https://embed.saohgdasregions.fun/embed/discoveryworld.html
+#EXTINF:-1 tvg-id="" tvg-name="everything" tvg-logo="iframes" group-title="iframes",everything
+https://embed.saohgdasregions.fun/embed/everything.html
+#EXTINF:-1 tvg-id="" tvg-name="lifetime" tvg-logo="iframes" group-title="iframes",lifetime
+https://embed.saohgdasregions.fun/embed/lifetime.html
+#EXTINF:-1 tvg-id="" tvg-name="elgourmet" tvg-logo="iframes" group-title="iframes",elgourmet
+https://embed.saohgdasregions.fun/embed/elgourmet.html
+#EXTINF:-1 tvg-id="" tvg-name="disneyjr" tvg-logo="iframes" group-title="iframes",disneyjr
+https://embed.saohgdasregions.fun/embed/disneyjr.html
+#EXTINF:-1 tvg-id="" tvg-name="nick" tvg-logo="iframes" group-title="iframes",nick
+https://embed.saohgdasregions.fun/embed/nick.html
+#EXTINF:-1 tvg-id="" tvg-name="nickjr" tvg-logo="iframes" group-title="iframes",nickjr
+https://embed.saohgdasregions.fun/embed/nickjr.html
+#EXTINF:-1 tvg-id="" tvg-name="cartoonnetwork" tvg-logo="iframes" group-title="iframes",cartoonnetwork
+https://embed.saohgdasregions.fun/embed/cartoonnetwork.html
+#EXTINF:-1 tvg-id="" tvg-name="cartoonito" tvg-logo="iframes" group-title="iframes",cartoonito
+https://embed.saohgdasregions.fun/embed/cartoonito.html
+#EXTINF:-1 tvg-id="" tvg-name="tooncast" tvg-logo="iframes" group-title="iframes",tooncast
+https://embed.saohgdasregions.fun/embed/tooncast.html
+#EXTINF:-1 tvg-id="" tvg-name="discoverykids" tvg-logo="iframes" group-title="iframes",discoverykids
+https://embed.saohgdasregions.fun/embed/discoverykids.html
+#EXTINF:-1 tvg-id="" tvg-name="telemundopuertorico" tvg-logo="iframes" group-title="iframes",telemundopuertorico
+https://embed.saohgdasregions.fun/embed/telemundopuertorico.html
+#EXTINF:-1 tvg-id="" tvg-name="azcorazon" tvg-logo="iframes" group-title="iframes",azcorazon
+https://embed.saohgdasregions.fun/embed/azcorazon.html
+#EXTINF:-1 tvg-id="" tvg-name="azclick" tvg-logo="iframes" group-title="iframes",azclick
+https://embed.saohgdasregions.fun/embed/azclick.html
+#EXTINF:-1 tvg-id="" tvg-name="a3series" tvg-logo="iframes" group-title="iframes",a3series
+https://embed.saohgdasregions.fun/embed/a3series.html
+#EXTINF:-1 tvg-id="" tvg-name="natgeomundo" tvg-logo="iframes" group-title="iframes",natgeomundo
+https://embed.saohgdasregions.fun/embed/natgeomundo.html
+#EXTINF:-1 tvg-id="" tvg-name="willax" tvg-logo="iframes" group-title="iframes",willax
+https://embed.saohgdasregions.fun/embed/willax.html
+#EXTINF:-1 tvg-id="" tvg-name="globaltv" tvg-logo="iframes" group-title="iframes",globaltv
+https://embed.saohgdasregions.fun/embed/globaltv.html
+#EXTINF:-1 tvg-id="" tvg-name="rcn" tvg-logo="iframes" group-title="iframes",rcn
+https://embed.saohgdasregions.fun/embed/rcn.html
+#EXTINF:-1 tvg-id="" tvg-name="telehit" tvg-logo="iframes" group-title="iframes",telehit
+https://embed.saohgdasregions.fun/embed/telehit.html
+#EXTINF:-1 tvg-id="" tvg-name="odisea" tvg-logo="iframes" group-title="iframes",odisea
+https://embed.saohgdasregions.fun/embed/odisea.html
+#EXTINF:-1 tvg-id="" tvg-name="movistaraccion" tvg-logo="iframes" group-title="iframes",movistaraccion
+https://embed.saohgdasregions.fun/embed/movistaraccion.html
+#EXTINF:-1 tvg-id="" tvg-name="antena3" tvg-logo="iframes" group-title="iframes",antena3
+https://embed.saohgdasregions.fun/embed/antena3.html
+#EXTINF:-1 tvg-id="" tvg-name="tvpublica" tvg-logo="iframes" group-title="iframes",tvpublica
+https://embed.saohgdasregions.fun/embed/tvpublica.html
+#EXTINF:-1 tvg-id="" tvg-name="disneychannel" tvg-logo="iframes" group-title="iframes",disneychannel
+https://embed.saohgdasregions.fun/embed/disneychannel.html
+#EXTINF:-1 tvg-id="" tvg-name="tntnovelas" tvg-logo="iframes" group-title="iframes",tntnovelas
+https://embed.saohgdasregions.fun/embed/tntnovelas.html
+#EXTINF:-1 tvg-id="" tvg-name="universalcinema" tvg-logo="iframes" group-title="iframes",universalcinema
+https://embed.saohgdasregions.fun/embed/universalcinema.html
+#EXTINF:-1 tvg-id="" tvg-name="fmhotkids" tvg-logo="iframes" group-title="iframes",fmhotkids
+https://embed.saohgdasregions.fun/embed/fmhotkids.html
+#EXTINF:-1 tvg-id="" tvg-name="telemundo51florida" tvg-logo="iframes" group-title="iframes",telemundo51florida
+https://embed.saohgdasregions.fun/embed/telemundo51florida.html
+
 
 #EXTINF:-1 tvg-id="beinsportsextran_2" tvg-logo="https://img.teleclub.xyz/beinsportsn.png" group-title="Deportes", Bein Sports Extra Ñ
 http://tv.teleclub.xyz/stream/server_2/deportes/beinsportsextran/master.m3u8
