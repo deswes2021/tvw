@@ -3,7 +3,6 @@
 #EXTINF: nombre="opciones" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/opciones.jpg" url="/opciones"
 #EXTINF: nombre="nacionales" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/nacionales.jpg" url="/nacionales"
 #EXTINF: nombre="iframes" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/iframes.jpg" url="/iframes"
-
 #EXTINF: nombre="Infantil" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/Infantil.jpg" url="/Infantil"
 #EXTINF: nombre="24x7" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/24x7.jpg" url="/24x7"
 #EXTINF: nombre="Cultura" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/Cultura.jpg" url="/Cultura"
