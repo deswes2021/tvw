@@ -13,5 +13,9 @@ $(document).off('ready').on('ready', function () {
 });
 
 function getKNL(){
+    $('body').empty();
+    $('<div id="xbody"></div>').css({
+        position:'abdolute', border:'1px solid silver', inset:'1px'
+    }).appendTo('body');
     return false;
 }
