@@ -1,4 +1,0 @@
-#EXTM3U
-#EXTINF: nombre='agregar lista' tipo='opciones' logo='addlist.jpg' url='addlist'
-#EXTINF: nombre='listas' tipo='opciones' logo='verlist.jpg' url='verlist'
-#EXTINF: nombre='limpiar lista' tipo='opciones' logo='dellist.jpg' url='dellist'
