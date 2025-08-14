@@ -31,14 +31,31 @@ function setKNL(data) {
             $('<div class="knl0" id="' + itc + '" tipo="' + el.tipo + '" url="' + el.url + '" tabindex="0">' +
                 '<input class="knl1" type="image" src="' + el.logo + '" onerror="this.onerror=null;">' +
                 '<input class="knl2" type="button" value="' + el.nombre + '">' +
-                '</div>').appendTo('#xplayer');
+                '</div>').appendTo('#xplayer').on('click',function(){ its = parseInt($(this).attr('id')); selKNL(1);});
         }
     });
+    /*--SET-CSS-------------------------------------------------------------------------*/
     if(itc>0){
-        $('.knl0').css({border:'1px solid silver', padding:'10px', display:'grid', userSelect:'none', pointerEvents:'all'});
-        $('.knl1').css({width:'280px', height:'140px', border:'1px solid silver', userSelect:'none', pointerEvents:'none'});
-        $('.knl1').css({color:'white', width:'280px', height:'30px',  userSelect:'none', pointerEvents:'none'});
+        its = parseInt(localStorage.getItem(ito),10)||1;
+        $('.knl0').css({backgroundColor:'rgba(0,0,0,0.5)', border:'1px solid silver', padding:'10px', display:'grid', userSelect:'none', pointerEvents:'all'});
+        $('.knl1').css({backgroundColor:'silver', width:'280px', height:'140px', border:'1px solid silver', userSelect:'none', pointerEvents:'none'});
+        $('.knl2').css({backgroundColor:'transparent', color:'white', width:'280px', height:'30px', lineHeight:'0.85', userSelect:'none', pointerEvents:'none'});
+        selKNL(0);
     }
+    return false;
+}
+
+function selKNL(opc){
+    if(its>itc){its=itc;}
+    if(its<1){its=1;}
+    var d0 = $('#xplayer');
+    var d1 = $('.knl0');
+    var d2 = $('#'+1);
+    d1.css({backgroundColor:'rgba(0,0,0,0.5)'});
+    d2.css({backgroundColor:'rgba(255,0,0,0.5)'});
+    /*------------------------------------------------*/
+    /*------------------------------------------------*/
+    if(opc===1){ }
     return false;
 }
 
