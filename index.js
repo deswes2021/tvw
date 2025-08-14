@@ -25,11 +25,10 @@ function setKNL() {
  
     // Cargar lista de canales
     itc=0;
-    jsLST.forEach((el) => {
-        itc++;
+    jsLST.forEach((el,i) => {        
         $('<div>', {
             class: 'knl0',
-            id: itc,
+            id: i+1,
             tipo: el.tipo,
             url: el.url,
             tabindex: 0
