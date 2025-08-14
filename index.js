@@ -12,6 +12,15 @@ function setCSS() {
     return false;
 }
 
+/*--GET LIST KNLS FROM GIHUB--*/
+function getKNL(prox) {
+    fetch((prox||'') + 'https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
+        .then(rs0 => { rs0.text(); })
+        .then(dt0 => { setKNL(dt0); })
+        .catch(er0 => { if (!prox) { getKNL('https://corsproxy.io/?url='); } else { console.log('Error: ' + er0); } });
+    return false;
+}
+
 /*--SET LIST KNLS TO XPLAYER--76287676*/
 function setKNL(dats) {
     $('body').empty();
@@ -24,9 +33,16 @@ function setKNL(dats) {
         overflowY: 'scroll', scrollbarWidth: 'none'
     }).appendTo('#xbody');
     /*--SET-LIST-------------------------------------------------------------------------*/
-    console.log(dats);
+    itc=0;
     var data = $.trim(dats);
     if (!/^(\[)/i.test(data)) { return; }
+    data.forEach(el => {
+        itc++;
+        $('<div class="knl0" id="'+itc+'" tipo="'+el.tipo+'" url="'+el.url+'" tabindex="0">'+
+            '<input class="knl1" type="image" src="'+el.logo+'" onerror="this.onerror=null;">'+
+            '<input class="knl2" type="button" value="'+el.nombre+'">'+
+            '</div>').appendTo('#xplayer');        
+    });
     return false;
 }
 
