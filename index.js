@@ -21,7 +21,7 @@ function getKNL(prox) {
     return false;
 }
 
-/*--SET LIST KNLS TO XPLAYER--*/
+/*--SET LIST KNLS TO XPLAYER--76287676*/
 function setKNL(dats) {
     $('body').empty();
     $('<div id="xbody"></div>').css({
