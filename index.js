@@ -13,27 +13,46 @@ function setCSS() {
 }
 
 /*--SET LIST KNLS TO XPLAYER--76287676*/
-function setKNL(data) {
-    $('body').empty();
-    $('<div id="xbody"></div>').css({
-        position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver', inset: '1px', display: 'flex',
-        flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
-    }).appendTo('body');
-    $('<div id="xplayer"></div>').css({
-        maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', overflowX: 'hidden',
-        overflowY: 'scroll', scrollbarWidth: 'none'
-    }).appendTo('#xbody');
-    /*--SET-LIST-------------------------------------------------------------------------*/
-    itc = 0;
-    jsLST.forEach(el => {
+function setKNL(jsLST) {
+    // Si el contenedor no existe, créalo
+    if (!$('#xbody').length) {
+        $('<div>', { id: 'xbody' }).css({
+            position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver',
+            inset: '1px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
+        }).append(
+            $('<div>', { id: 'xplayer' }).css({
+                maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+                overflowX: 'hidden', overflowY: 'scroll', scrollbarWidth: 'none'
+            })
+        ).appendTo('body');
+    } else { $('#xplayer').empty(); }
+
+    // Cargar lista de canales
+    itc=0;
+    jsLST.forEach((el) => {
         itc++;
-        $('<div class="knl0" id="' + itc + '" tipo="' + el.tipo + '" url="' + el.url + '" tabindex="0">' +
-            '<input class="knl1" type="image" src="' + el.logo + '" onerror="this.onerror=null;">' +
-            '<input class="knl2" type="button" value="' + el.nombre + '">' +
-            '</div>').appendTo('#xplayer');
+        $('<div>', {
+            class: 'knl0',
+            id: itc,
+            tipo: el.tipo,
+            url: el.url,
+            tabindex: 0
+        }).append(
+            $('<input>', {
+                class: 'knl1',
+                type: 'image',
+                src: el.logo,
+                onerror: "this.onerror=null; this.src='fallback.png';"
+            }),
+            $('<input>', {
+                class: 'knl2',
+                type: 'button',
+                value: el.nombre
+            })
+        ).appendTo('#xplayer');
     });
-    return false;
 }
+
 
 
 
