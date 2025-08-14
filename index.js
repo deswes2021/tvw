@@ -17,7 +17,7 @@ function getKNL(prox) {
     fetch(prox + 'https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
         .then(rs0 => { rs0.text(); })
         .then(dt0 => { setKNL(dt0); })
-        .fail(er0 => { if (!prox) { getKNL('https://corsproxy.io/?url='); } else { console.log('Error: ' + er0); } });
+        .catch(er0 => { if (!prox) { getKNL('https://corsproxy.io/?url='); } else { console.log('Error: ' + er0); } });
     return false;
 }
 
