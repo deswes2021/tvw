@@ -8,15 +8,16 @@ $(document).off('click').on('click', function (ex) { ex.preventDefault(); });
 function setCSS() {
     $('body').css({ backgroundColor: 'rgba(0,0,0,1)', margin: 0, padding: 0, userSelect: 'none', pointerEvents: 'none' });
     ito = location.href.split('#')[1] || 'menu';
-    getKNL();
+    getKNL('');
     return false;
 }
 
 /*--GET LIST KNLS FROM GIHUB--*/
-function getKNL() {
-    fetch('https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
+function getKNL(prox) {
+    fetch(prox+'https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
         .then(rs0 => rs0.text())
-        .then(dt0 => { setKNL(dt0); });
+        .then(dt0 => { setKNL(dt0); })
+        .fail(er0 => { if(!prox){getKNL('https://corsproxy.io/?url=');}else{console.log('Error: '+er0);} });
     return false;
 }
 
