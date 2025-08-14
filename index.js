@@ -1,4 +1,4 @@
-var its, itc, ito, player, vopc;
+let jsLST, its, itc, ito, player, vopc;
 
 $(document).off('contextmenu').on('contextmenu', function (ex) { ex.preventDefault(); });
 $(document).off('keydown').on('keydown', function (ex) { ex.preventDefault(); });
@@ -8,46 +8,34 @@ $(document).off('click').on('click', function (ex) { ex.preventDefault(); });
 function setCSS() {
     $('body').css({ backgroundColor: 'rgba(0,0,0,1)', margin: 0, padding: 0, userSelect: 'none', pointerEvents: 'none' });
     ito = location.href.split('#')[1] || 'menu';
-    setKNL();
+    setKNL(jsLST);
     return false;
 }
 
 /*--SET LIST KNLS TO XPLAYER--76287676*/
-function setKNL() {
-    $('<div>', { id: 'xbody' }).css({
-        position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver',
-        inset: '1px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
+function setKNL(data) {
+    $('body').empty();
+    $('<div id="xbody"></div>').css({
+        position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver', inset: '1px', display: 'flex',
+        flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
     }).appendTo('body');
-    $('<div>', { id: 'xplayer' }).css({
-        maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
-        overflowX: 'hidden', overflowY: 'scroll', scrollbarWidth: 'none'
+    $('<div id="xplayer"></div>').css({
+        maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', overflowX: 'hidden',
+        overflowY: 'scroll', scrollbarWidth: 'none'
     }).appendTo('#xbody');
- 
-    // Cargar lista de canales
-    itc=0;
-    jsLST.forEach((el,i) => {        
-        $('<div>', {
-            class: 'knl0',
-            id: i+1,
-            tipo: el.tipo,
-            url: el.url,
-            tabindex: 0
-        }).append(
-            $('<input>', {
-                class: 'knl1',
-                type: 'image',
-                src: el.logo,
-                onerror: "this.onerror=null; this.src='fallback.png';"
-            }),
-            $('<input>', {
-                class: 'knl2',
-                type: 'button',
-                value: el.nombre
-            })
-        ).appendTo('#xplayer');
+    /*--SET-LIST-------------------------------------------------------------------------*/
+    itc = 0;
+    data.forEach(el => {
+        if (el.url) {
+            itc++;
+            $('<div class="knl0" id="' + itc + '" tipo="' + el.tipo + '" url="' + el.url + '" tabindex="0">' +
+                '<input class="knl1" type="image" src="' + el.logo + '" onerror="this.onerror=null;">' +
+                '<input class="knl2" type="button" value="' + el.nombre + '">' +
+                '</div>').appendTo('#xplayer');
+        }
     });
+    return false;
 }
-
 
 
 
@@ -69,7 +57,7 @@ function setKNL() {
 
 
 /*--------------------------------------------------------------------------*/
-var jsLST = [
+jsLST = [
     {
         nombre: "tcs +",
         tipo: "nacionales",
