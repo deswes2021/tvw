@@ -34,7 +34,7 @@ function setKNL(dats) {
     }).appendTo('#xbody');
     /*--SET-LIST-------------------------------------------------------------------------*/
     var data = $.trim(dats);
-    if (!/^(\[)/i.test(data)) { return; } console.log(data);return;
+    if (!/^(\[)/i.test(data)) { return; }
     for (let index = 0; index < data.length; index++) {
         const knl = data[index];
         if (knl.url) {
