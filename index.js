@@ -13,20 +13,16 @@ function setCSS() {
 }
 
 /*--SET LIST KNLS TO XPLAYER--76287676*/
-function setKNL(jsLST) {
-    // Si el contenedor no existe, créalo
-    if (!$('#xbody').length) {
-        $('<div>', { id: 'xbody' }).css({
-            position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver',
-            inset: '1px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
-        }).append(
-            $('<div>', { id: 'xplayer' }).css({
-                maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
-                overflowX: 'hidden', overflowY: 'scroll', scrollbarWidth: 'none'
-            })
-        ).appendTo('body');
-    } else { $('#xplayer').empty(); }
-
+function setKNL() {
+    $('<div>', { id: 'xbody' }).css({
+        position: 'absolute', backgroundColor: 'rgba(64,64,64,0.5)', border: '1px solid silver',
+        inset: '1px', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignContent: 'center'
+    }).appendTo('body');
+    $('<div>', { id: 'xplayer' }).css({
+        maxWidth: '99%', maxHeight: '99%', display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+        overflowX: 'hidden', overflowY: 'scroll', scrollbarWidth: 'none'
+    }).appendTo('#xbody');
+ 
     // Cargar lista de canales
     itc=0;
     jsLST.forEach((el) => {
