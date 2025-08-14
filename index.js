@@ -15,7 +15,7 @@ function setCSS(){
 function getKNL(){
     $('body').empty();
     $('<div id="xbody"></div>').css({
-        position:'abdolute', border:'1px solid silver', inset:'1px'
+        position:'absolute', backgroundColor:'rgba(64,64,64,0.5)', border:'5px solid silver', inset:'1px'
     }).appendTo('body');
     return false;
 }
