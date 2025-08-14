@@ -1,4 +1,4 @@
-var its, itc, ito;
+var its, itc, ito, player, vopc;
 
 $(document).off('contextmenu').on('contextmenu', function (ex) { ex.preventDefault(); });
 $(document).off('keydown').on('keydown', function (ex) { ex.preventDefault(); });
