@@ -34,6 +34,11 @@ function setKNL(data) {
                 '</div>').appendTo('#xplayer');
         }
     });
+    if(itc>0){
+        $('.knl0').css({border:'1px solid silver', padding:'10px', display:'grid', userSelect:'none', pointerEvents:'all'});
+        $('.knl1').css({width:'280px', height:'140px', border:'1px solid silver', userSelect:'none', pointerEvents:'none'});
+        $('.knl1').css({color:'white', width:'280px', height:'30px',  userSelect:'none', pointerEvents:'none'});
+    }
     return false;
 }
 
