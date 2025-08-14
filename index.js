@@ -15,7 +15,20 @@ function setCSS(){
 function getKNL(){
     $('body').empty();
     $('<div id="xbody"></div>').css({
-        position:'absolute', backgroundColor:'rgba(64,64,64,0.5)', border:'5px solid silver', inset:'1px'
+        position:'absolute', backgroundColor:'rgba(64,64,64,0.5)', border:'1px solid silver', inset:'1px', display:'flex',
+        flexWrap:'wrap', justifyContent:'center', alignContent:'center'
     }).appendTo('body');
+    $('<div id="xplayer"></div>').css({
+        maxWidth:'99%', maxHeight:'99%', display:'flex', flexWrap:'wrap', justifyContent:'center', overflowX:'hidden',
+        overflowY:'scroll', scrollbarWidth:'none' 
+    }).appendTo('#xbody');
+    /*--GET-LIST-------------------------------------------------------------------------*/
+    fetch('https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
+    .then(r0 => r0.text())
+    .then(d0 => {
+        d0.forEach(el => {
+            $('<input type="image" src="'+el.logo+'">').css({ width:'300px', height:'160px' });
+        });
+    });
     return false;
 }
