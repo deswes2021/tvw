@@ -34,6 +34,7 @@ function setKNL(dats) {
     }).appendTo('#xbody');
     /*--SET-LIST-------------------------------------------------------------------------*/
     var data = $.trim(dats);
+    console.log(data);
     if (!/^(\[)/i.test(data)) { return; }
     data.forEach(el => {
         $('<input type="image" src="' + el.logo + '">')
