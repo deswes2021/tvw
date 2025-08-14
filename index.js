@@ -35,12 +35,5 @@ function setKNL(dats) {
     /*--SET-LIST-------------------------------------------------------------------------*/
     var data = $.trim(dats);
     if (!/^(\[)/i.test(data)) { return; }
-    for (let index = 0; index < data.length; index++) {
-        const knl = data[index];
-        if (knl.url) {
-            $('<input type="image" src="' + knl.logo + '">')
-                .css({ width: '300px', height: '160px' }).appendTo('#xplayer');
-        }
-    }
     return false;
 }
