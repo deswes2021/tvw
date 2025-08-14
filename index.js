@@ -37,9 +37,9 @@ function setKNL(data) {
     /*--SET-CSS-------------------------------------------------------------------------*/
     if(itc>0){
         its = parseInt(localStorage.getItem(ito),10)||1;
-        $('.knl0').css({backgroundColor:'rgba(0,0,0,0.5)', border:'1px solid silver', padding:'10px', display:'grid', userSelect:'none', pointerEvents:'all'});
-        $('.knl1').css({backgroundColor:'silver', width:'280px', height:'140px', border:'1px solid silver', userSelect:'none', pointerEvents:'none'});
-        $('.knl2').css({backgroundColor:'transparent', color:'white', width:'280px', height:'30px', lineHeight:'0.85', userSelect:'none', pointerEvents:'none'});
+        $('.knl0').css({backgroundColor:'rgba(0,0,0,0.5)', border:'1px solid silver', borderRadius:'5px', margin:'5px', padding:'10px', paddingBottom:'0px', display:'grid', userSelect:'none', pointerEvents:'all'});
+        $('.knl1').css({backgroundColor:'silver', width:'280px', height:'140px', border:'1px solid silver', borderRadius:'5px', userSelect:'none', pointerEvents:'none'});
+        $('.knl2').css({backgroundColor:'transparent', color:'white', width:'280px', height:'30px', border:'none', lineHeight:'0.85', userSelect:'none', pointerEvents:'none'});
         selKNL(0);
     }
     return false;
