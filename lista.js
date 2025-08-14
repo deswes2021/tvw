@@ -1,4 +1,4 @@
-const jsWTV = [{
+[{
     nombre: "tcs +",
     tipo: "nacionales",
     logo: "https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal1.jpg",
