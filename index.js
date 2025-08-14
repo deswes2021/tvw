@@ -14,10 +14,10 @@ function setCSS() {
 
 /*--GET LIST KNLS FROM GIHUB--*/
 function getKNL(prox) {
-    fetch(prox+'https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
+    fetch(prox + 'https://raw.githubusercontent.com/deswes2021/tvw/main/lista.js')
         .then(rs0 => rs0.text())
         .then(dt0 => { setKNL(dt0); })
-        .fail(er0 => { if(!prox){getKNL('https://corsproxy.io/?url=');}else{console.log('Error: '+er0);} });
+        .fail(er0 => { if (!prox) { getKNL('https://corsproxy.io/?url='); } else { console.log('Error: ' + er0); } });
     return false;
 }
 
@@ -34,11 +34,13 @@ function setKNL(dats) {
     }).appendTo('#xbody');
     /*--SET-LIST-------------------------------------------------------------------------*/
     var data = $.trim(dats);
-    console.log(data);
-    if (!/^(\[)/i.test(data)) { return; }
-    data.forEach(el => {
-        $('<input type="image" src="' + el.logo + '">')
-            .css({ width: '300px', height: '160px' }).appendTo('#xplayer');
-    });
+    if (!/^(\[)/i.test(data)) { return; } console.log(data);
+    for (let index = 0; index < data.length; index++) {
+        const knl = data[index];
+        if (knl.url) {
+            $('<input type="image" src="' + knl.logo + '">')
+                .css({ width: '300px', height: '160px' }).appendTo('#xplayer');
+        }
+    }
     return false;
 }
