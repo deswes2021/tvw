@@ -1,5 +1,4 @@
 #EXTM3U
-
 #EXTINF: nombre="nacional" tipo="menu" logo="nacional" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/nacional.m3u"
 #EXTINF: nombre="animacion" tipo="menu" logo="animacion" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/animacion.m3u"
 #EXTINF: nombre="undefined" tipo="menu" logo="undefined" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/undefined.m3u"
