@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="activar" tvg-logo="https://img.teleclub.xyz/activar.png" group-title="activar", activar
+https://tv.teleclub.xyz/activar
+
+
 #EXTINF:-1 tvg-id="beinsportsextran_2" tvg-logo="https://img.teleclub.xyz/beinsportsn.png" group-title="Deportes", Bein Sports Extra Ñ
 http://tv.teleclub.xyz/stream/server_2/deportes/beinsportsextran/master.m3u8
 #EXTINF:-1 tvg-id="directvsports_2" tvg-logo="https://img.teleclub.xyz/directvsports.png" group-title="Deportes", Directv Sports
