@@ -4,3 +4,4 @@
 #EXTINF: nombre="teleclub" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/img/teleclub.jpg" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/teleclub.m3u"
 #EXTINF: nombre="iframes" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/img/iframe.jpg" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/iframe.m3u"
 #EXTINF: nombre="undefined" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/img/undefined.jpg" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/undefined.m3u"
+#EXTINF: nombre="ytbanime" tipo="menu" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/img/ytbanime.jpg" url="https://raw.githubusercontent.com/deswes2021/tvw/main/listas/ytbanime.m3u"
