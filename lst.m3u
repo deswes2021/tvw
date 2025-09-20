@@ -1,9 +1,9 @@
 #EXTM3U
 
 #EXTCANALS: OPCIONES---------------------------------------------
-#EXTINF: nombre="actualizar" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/actualizar.jpg" url="/actualizar"
-#EXTINF: nombre="borrar cache" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/borrarcache.jpg" url="/borrarcache"
-#EXTINF: nombre="activar" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/activar.jpg" url="https://tv.teleclub.xyz/activar"
+#EXTINF2: nombre="actualizar" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/actualizar.jpg" url="/actualizar"
+#EXTINF2: nombre="borrar cache" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/borrarcache.jpg" url="/borrarcache"
+#EXTINF2: nombre="activar" tipo="opciones" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/activar.jpg" url="https://tv.teleclub.xyz/activar"
 #EXTCANALS: OPCIONES---------------------------------------------
 
 #EXTCANALS: NACIONALES---------------------------------------------
