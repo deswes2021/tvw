@@ -6,10 +6,10 @@
 #EXTCANALS: OPCIONES---------------------------------------------
 
 #EXTCANALS: NACIONALES---------------------------------------------
-#EXTINF: nombre="tcs +" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal1.jpg"  url="https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live.m3u8"
-#EXTINF: nombre="Canal2" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal2.jpg"  url="https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/d3e259fa-736d-46b0-b1c9-71caf946ace9.m3u8"
+#EXTINF: nombre="tcs +" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal1.jpg"  url="https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/.m3u8"
+#EXTINF: nombre="Canal2" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal2.jpg"  url="https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/.m3u8"
 #EXTINF: nombre="Canal3" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal3.jpg"  url="https://cloud2.streaminglivehd.com:1936/8048/8048/playlist.m3u8"
-#EXTINF: nombre="Canal4" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal4.jpg"  url="https://telecorporacion-es.cdn.vustreams.com/live/ed89f096-00b1-4d6e-806a-ad9064a603e3/live.isml/ed89f096-00b1-4d6e-806a-ad9064a603e3.m3u8"
+#EXTINF: nombre="Canal4" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal4.jpg"  url="https://telecorporacion-es.cdn.vustreams.com/live/ed89f096-00b1-4d6e-806a-ad9064a603e3/live.isml/.m3u8"
 #EXTINF: nombre="Canal5" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal5.jpg"  url="https://cdn.elsalvadordigital.com:1936/wotvw/smil:wotvw.smil/playlist.m3u8"
 #EXTINF: nombre="Canal6" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal6.jpg"  url="https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8"
 #EXTINF: nombre="Canal7" tipo="nacionales" logo="https://raw.githubusercontent.com/deswes2021/tvw/main/img/naccanal7.jpg"  url="https://cdn.elsalvadordigital.com:1936/wotvw/smil:wotvw.smil/playlist.m3u8"
